@@ -795,7 +795,6 @@ const Guide = () => (
                                 </>
                             )}
                         </Disclosure>
-                        </Disclosure>
                           <Disclosure>
                             {({ open }) => (
                                 <>
