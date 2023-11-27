@@ -312,7 +312,7 @@ const Guide = () => (
                                 <>
                                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
                                         <span className="block text-base first-letter:uppercase font-semibold">
-                                            hướng dẫn hiệu chỉnh huyết áp
+                                            hướng dẫn hiệu chỉnh huyết áp ( Đồng Hồ )
                                         </span>
                                         <IoIosArrowDown
                                             className={`${
@@ -325,7 +325,33 @@ const Guide = () => (
                                     <Disclosure.Panel className="text-sm text-gray-500">
                                         <iframe
                                             className="w-full aspect-video"
-                                            src="https://www.youtube.com/embed/bVfXCtuGM9A?si=R-w0FOYMXJU6b8BL"
+                                            src="https://www.youtube.com/embed/RL0rtPeot14?si=ZQOq3JcIbEao_O8E"
+                                            title="YouTube video player"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        ></iframe>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                          <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            hướng dẫn hiệu chỉnh huyết áp ( Vòng Tay )
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <iframe
+                                            className="w-full aspect-video"
+                                            src="https://www.youtube.com/embed/TFto6kjGXh0?si=n7LhPKk1LdKchJz9"
                                             title="YouTube video player"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         ></iframe>
@@ -352,7 +378,7 @@ const Guide = () => (
                                     <Disclosure.Panel className="text-sm text-gray-500">
                                         <iframe
                                             className="w-full aspect-video"
-                                            src="https://www.youtube.com/embed/2DY5ZLt7qA8?si=bzA3DVHdGV643gF9"
+                                            src="https://www.youtube.com/embed/zK9uidaeupQ?si=nEc2pXWTMSxml2hS"
                                             title="YouTube video player"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         ></iframe>
@@ -379,7 +405,7 @@ const Guide = () => (
                                     <Disclosure.Panel className="text-sm text-gray-500">
                                         <iframe
                                             className="w-full aspect-video"
-                                            src="https://youtube.com/embed/p5MHK3rl6vc?si=rCnNsoXAWoSa8DlB"
+                                            src="https://www.youtube.com/embed/xLpsa4eYV_I?si=9zCfZ1wRu1j85Cv4"
                                             title="YouTube video player"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         ></iframe>
@@ -559,7 +585,7 @@ const Guide = () => (
                                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
                                         <span className="block text-base first-letter:uppercase font-semibold">
                                             Đào tạo chuyên sâu về dự án
-                                            Inpersona Cofounder VGroup
+                                            Inpersona - Cofounder VGroup JustinLe
                                         </span>
                                         <IoIosArrowDown
                                             className={`${
@@ -585,7 +611,7 @@ const Guide = () => (
                                 <>
                                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
                                         <span className="block text-base first-letter:uppercase font-semibold">
-                                            đào tạo chuyên sâu sản phẩm Helo Big
+                                            đào tạo chuyên sâu sản phẩm Helo - Big
                                             Leader Lan Violet
                                         </span>
                                         <IoIosArrowDown
@@ -655,6 +681,61 @@ const Guide = () => (
                                         <iframe
                                             className="w-full aspect-video"
                                             src="https://www.youtube.com/embed/videoseries?si=286bLXzoLFjHD5_d&amp;list=PLsI7x29OMpKdiXaq91Pto-wrD8991QzvE"
+                                            title="YouTube video player"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        ></iframe>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                    </Tab.Panel>
+                    {/* Tab panel 6 */}
+                    <Tab.Panel className="grid gap-2">
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            Phóng sự VTV 1 về thị trường thiết bị đeo tay thông minh
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <iframe
+                                            className="w-full aspect-video"
+                                            src="https://www.youtube.com/embed/MnkvPtr6RgI?si=6z_btmrNPY2HGCOW"
+                                            title="YouTube video player"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        ></iframe>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            Bài phát biểu quan trọng của Ông Faibo Galdi tại Hội Nghị Quốc Tế 2023
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <iframe
+                                            className="w-full aspect-video"
+                                            src="https://www.youtube.com/embed/iXXd2mONLEk?si=bE_fbc7SnFFoYPGL"
                                             title="YouTube video player"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         ></iframe>
