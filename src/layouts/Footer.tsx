@@ -19,7 +19,7 @@ const Footer = () => {
                             liên hệ với chúng tôi
                         </div>
                         <a
-                            href="https://zalo.me/g/ohcfvp433"
+                            href="https://zalo.me/g/tyghqq532"
                             target="_blank"
                             className="flex gap-2 items-center"
                         >
