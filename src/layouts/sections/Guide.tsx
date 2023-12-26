@@ -1265,6 +1265,29 @@ const Guide = () => (
                                 </>
                             )}
                         </Disclosure>  
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                              18. Khi người dùng ấn vào nút "Purchase Data NFT" , app hiển thị ra phí một lần 999.000 vnđ => số tiền này chính là phí 35$  đúng không? Nếu đúng tại sao tỷ giá lại cao như thế? (999.000 vnđ/ $35 = 28.542,857 ( tỷ giá quy đổi vnđ/usd). 
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Theo link này sản phẩm/dịch vụ được bán bởi AppStore chứ không phải bởi công ty chúng ta.Công ty đề xuất mua từ MarketPlace của chúng tôi tại m.inpersona.com . như hình ảnh bạn gửi là của Apple bán sản phẩm và thực hiện việc quy đổi theo tỷ giá của họ, không phải inPersona hoặc VyvoSmartChain. Do vậy: phí 35$ mọi người có quyền lựa chọn mua theo Apple hoặc theo minpersona (tỷ giá quy đổi sẽ là khác nhau).
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>  
                     </Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
