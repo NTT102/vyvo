@@ -1034,6 +1034,50 @@ const Guide = () => (
                                 </>
                             )}
                         </Disclosure>
+                         <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            9. Tổng các khoản phí khi vào 1 gói NFT mới là bao nhiêu?
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                         <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời :
+                                        </p>
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            - $35 phí Minting của NFT ban đầu
+                                        </p>
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            - $149 Thiết bị hoặc $0 nếu bạn không cần mua thiết bị
+                                        </p>
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            - $50 Nâng cấp lên Biosense Lock hoặc $0 nếu bạn không nâng cấp
+                                        </p>
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            - $149 Biostrip AI 3 Tháng hoặc $0 nếu bạn không mua Biosense
+                                        </p>
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            - $99 Hub Console hoặc $0 nếu bạn không mua Hub Console.
+                                        </p>
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            - $15 Level-Basic,  $325 Level-1, $1000 Level-2, $2000 Level-3, $3000 Level-4 (Số tiền trong VSC staked vào NFT )
+                                        </p>
+                                        <p className="text-red font-medium first-letter:uppercase">
+                                            Seed Voucher hiện tại có thể được sử dụng để Giảm giá $250 khi mua NFT mới.
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
                     </Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
