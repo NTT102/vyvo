@@ -866,9 +866,9 @@ const Guide = () => (
                                         />
                                     </Disclosure.Button>
                                     <Disclosure.Panel className="text-sm text-gray-500">
-                                        <span>
-                                            Trả lời : Không, nó có thể được sử dụng làm Voucher giảm giá $250 cho NFT mới
-                                        </span>
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Không, nó có thể được sử dụng làm Voucher giảm giá $250 cho NFT mới !
+                                        </p>
                                     </Disclosure.Panel>
                                 </>
                             )}
