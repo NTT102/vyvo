@@ -1264,6 +1264,7 @@ const Guide = () => (
                                     </Disclosure.Panel>
                                 </>
                             )}
+                            </Disclosure>
                              <Disclosure>
                             {({ open }) => (
                                 <>
