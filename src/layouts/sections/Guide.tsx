@@ -1150,6 +1150,144 @@ const Guide = () => (
                                 </>
                             )}
                         </Disclosure>
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                              13. Phí $35 người dùng chỉ phải trả trong lần đầu tiên tham gia đúc NFT, hay khi kết thúc kỳ hạn 12 tháng, người dùng lại phải trả phí này cho giai đoạn khai thác dữ liệu tiếp theo? 
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Đó là khoản phí một lần để đúc NFT.
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                             14. Khi người dùng ấn vào nút "Purchase Data NFT" , app hiển thị ra phí một lần 999.000 vnđ => số tiền này chính là phí 35$  đúng không? Nếu đúng tại sao tỷ giá lại cao như thế? (999.000 vnđ/ $35 = 28.542,857 ( tỷ giá quy đổi vnđ/usd). 
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Theo link này sản phẩm/dịch vụ được bán bởi AppStore chứ không phải bởi công ty chúng ta.Công ty đề xuất mua từ MarketPlace của chúng tôi tại m.inpersona.com . như hình ảnh bạn gửi là của Apple bán sản phẩm và thực hiện việc quy đổi theo tỷ giá của họ, không phải inPersona hoặc VyvoSmartChain.Do vậy: phí 35$ mọi người có quyền lựa chọn mua theo Apple hoặc theo minpersona (tỷ giá quy đổi sẽ là khác nhau).
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                             15. Các thành viên hiện tại có cần cài đặt và sử dụng phiên bản mới là inPersona Pro hay phiên bản cũ vẫn đáp ứng đầy đủ các tiêu chuẩn cho thành viên hiện tại?
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Có thể sử dụng phiên bản cũ, nhưng cần một bản cập nhật qua OTA vào ngày mai về hiển thị chi tiết của NFT mới.(OTA là viết tắt của "Over-The-Air," một cách cập nhật phần mềm hoặc firmware trực tiếp từ mạng không dây (thông qua Internet hoặc mạng di động) thay vì thông qua kết nối cáp truyền thống. OTA cho phép người dùng cập nhật phần mềm của thiết bị từ xa một cách thuận tiện, thông thường không cần phải kết nối thiết bị với máy tính hoặc thiết bị khác.)
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                         <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                              16. Đối với Data NFT Stake người cùng có còn được tặng thẻ Odde pay /Vyvo pay không?
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Thẻ sẽ được giao kèm theo thiết bị Helo khi bạn chọn mua thiết bị.
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                         <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                             17. Đối với Data NFT Stake, dự kiến cho chính sách miễn phí ship nhận thiết bị không?
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Với Data NFT Stake mới, tất cả phần liên quan đến VSC stake đều đi vào thị trường để mua VSC, do đó phần lợi nhuận còn lại cho inPersona chỉ nằm ở các thiết bị là rất nhỏ, không còn đủ để chịu chi phí vận chuyển. Vì vậy với chính sách hiện tại chúng tôi đã tối ưu hóa quyền lợi trực tiếp cho khách hàng vào giá trị của VSC và giá thiết bị ưu đãi rồi, vì vậy bạn vui lòng trả phí ship khi chọn mua thiết bị.
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                             18. Người dùng đeo đồng hồ App Watch cũng sẽ kết nối với app Helo Smart hoặc Heka pro hay có 1 app nào khác?
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Họ kết nối với Inpersona Pro (Như vậy người dùng App Watch ko cần phải cài helo hay heka mà duy nhất 1 app inpersona pro là xong! vô cùng tiện lợi)
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
                     </Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
