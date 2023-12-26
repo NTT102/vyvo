@@ -849,6 +849,31 @@ const Guide = () => (
                             )}
                         </Disclosure>
                     </Tab.Panel>
+                    <Tab.Panel className="grid gap-2">
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            1. Voucher SEED có hạn sử dụng không ạ?
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <span>
+                                            Trả lời : Không, nó có thể được sử dụng làm Voucher giảm giá $250 cho NFT mới
+                                        </span>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                    </Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
         </div>
