@@ -1242,6 +1242,29 @@ const Guide = () => (
                                 </>
                             )}
                         </Disclosure>  
+                         <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                              17. Người dùng đeo đồng hồ App Watch cũng sẽ kết nối với app Helo Smart hoặc Heka pro hay có 1 app nào khác?
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Họ kết nối với Inpersona Pro (Như vậy người dùng App Watch ko cần phải cài helo hay heka mà duy nhất 1 app inpersona pro là xong! vô cùng tiện lợi)
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>  
                     </Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
