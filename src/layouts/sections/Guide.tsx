@@ -1101,6 +1101,55 @@ const Guide = () => (
                                 </>
                             )}
                         </Disclosure>
+                         <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                             11. Nếu tôi mua và sử dụng thêm Biostrip, liệu tôi có nhận được thêm phần thưởng khối
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Sắp tới mỗi lần sử dụng một Biostrip nhận được 60 khối. Hiện tại Chưa.
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                              12. Seed Voucher có thể được sử dụng theo hai cách: Phương pháp 1 cho phép sử dụng để mua Data Mining Kit Level 1 (Owner version) cho đến ngày 30 tháng 4 năm 2024. Phương pháp 2 cho phép sử dụng là phiếu giảm giá $250 cho Stake Data NFT (cũng có giá trị đến ngày 30 tháng 4 năm 2024), có đúng không? 
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Có thể sử dụng cho Level-1 + Thiết bị (chỉ duy nhất phiên bản Owner). $250 hoặc $299
+                                        </p>
+                                        <p className="text-red font-medium first-letter:uppercase">
+                                            lưu ý mã Seed Voucher chỉ áp dụng cho mua NFT Lev 1 (kể cả cũ và mới). Các NFT Lev cao hơn ko khả dụng với mã Seed ạ.
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
                     </Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
