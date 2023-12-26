@@ -1270,7 +1270,7 @@ const Guide = () => (
                                 <>
                                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
                                         <span className="block text-base first-letter:uppercase font-semibold">
-                                              18. Khi người dùng ấn vào nút Purchase Data NFT , app hiển thị ra phí một lần 999.000 vnđ => số tiền này chính là phí 35$  đúng không? Nếu đúng tại sao tỷ giá lại cao như thế? (999.000 vnđ/ $35 = 28.542,857 ( tỷ giá quy đổi vnđ/usd). 
+                                              18. Khi người dùng ấn vào nút "Purchase Data NFT" , app hiển thị ra phí một lần 999.000 vnđ số tiền này chính là phí 35$ đúng không? Nếu đúng tại sao tỷ giá lại cao như thế?
                                         </span>
                                         <IoIosArrowDown
                                             className={`${
