@@ -1219,6 +1219,29 @@ const Guide = () => (
                                 </>
                             )}
                         </Disclosure>  
+                         <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                              16. Đối với Data NFT Stake, dự kiến cho chính sách miễn phí ship nhận thiết bị không?
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Với Data NFT Stake mới, tất cả phần liên quan đến VSC stake đều đi vào thị trường để mua VSC, do đó phần lợi nhuận còn lại cho inPersona chỉ nằm ở các thiết bị là rất nhỏ, không còn đủ để chịu chi phí vận chuyển. Vì vậy với chính sách hiện tại chúng tôi đã tối ưu hóa quyền lợi trực tiếp cho khách hàng vào giá trị của VSC và giá thiết bị ưu đãi rồi, vì vậy bạn vui lòng trả phí ship khi chọn mua thiết bị.
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>  
                     </Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
