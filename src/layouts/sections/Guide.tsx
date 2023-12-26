@@ -1195,7 +1195,30 @@ const Guide = () => (
                                     </Disclosure.Panel>
                                 </>
                             )}
-                        </Disclosure>         
+                        </Disclosure>     
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                              15. Đối với Data NFT Stake người cùng có còn được tặng thẻ Oddepay/Vyvopay không?
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Thẻ sẽ được giao kèm theo thiết bị Helo khi bạn chọn mua thiết bị.
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>  
                     </Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
