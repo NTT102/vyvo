@@ -64,6 +64,16 @@ const CourseTabs = () => {
                 >
                     chuỗi sự kiện
                 </Tab>
+                <Tab
+                    className={({ selected }) => {
+                        if (selected)
+                            return "text-white text-lg font-semibold border-b border-white outline-none first-letter:uppercase py-2";
+
+                        return "text-gray-400 text-lg font-semibold border-b border-transparent outline-none first-letter:uppercase py-2";
+                    }}
+                >
+                    Các câu hỏi (Q&A)
+                </Tab>
             </Tab.List>
         </div>
     );
