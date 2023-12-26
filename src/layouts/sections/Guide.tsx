@@ -1078,6 +1078,29 @@ const Guide = () => (
                                 </>
                             )}
                         </Disclosure>
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                    <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
+                                        <span className="block text-base first-letter:uppercase font-semibold">
+                                            10. Bạn có thể vui lòng làm rõ: tiện ích mở rộng cho phép NFT Owner mua các bản nâng cấp trị giá $500 cho đến ngày 30 tháng 4 năm 2024. Các thành viên muốn làm rõ: ví dụ: nếu vào tháng 1 năm 2024, họ đã chọn tính năng tùy chọn Redemption, sau đó họ vẫn có thể mua bản nâng cấp NFT này chứ? Và khoảng thời gian stake và unstake sẽ hoạt động như thế nào đối với Owner NFT Upgrades trong trường hợp này?
+                                        </span>
+                                        <IoIosArrowDown
+                                            className={`${
+                                                open
+                                                    ? "rotate-180 transform"
+                                                    : ""
+                                            } h-5 w-5 text-black`}
+                                        />
+                                    </Disclosure.Button>
+                                    <Disclosure.Panel className="text-sm text-gray-500">
+                                        <p className="text-white font-medium first-letter:uppercase">
+                                            Trả lời : Owner NFT (hiện tại) không có tính năng Stake, tùy chọn Redemption cho phép NFT quy đổi giá trị của NFT bằng VSC sau 24 tháng kể từ ngày đúc NFT đó. Vì vậy, Ngay cả khi bạn nâng cấp NFT này sau này (trước hạn nâng cấp cuối cùng là ngày 30 tháng 4 năm 2024), tùy chọn Redemption vẫn có sẵn trong vòng 24 tháng từ ngày đúc NFT gốc. Vì vậy, ngày lựa chọn nâng cấp này sẽ không bị ảnh hưởng. Số lượng Block sẽ không thay đổi, nó vẫn giống như chính sách hiện tại.
+                                        </p>
+                                    </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
                     </Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
