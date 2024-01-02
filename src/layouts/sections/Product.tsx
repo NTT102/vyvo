@@ -1,7 +1,10 @@
-import Product1 from "../../assets/products/biotrip.png";
-import Product2 from "../../assets/products/dong ho 1.1.png";
-import Product3 from "../../assets/products/dong ho 2.1.png";
-import Product4 from "../../assets/products/vong tay.png";
+import Product1 from "../../assets/products/1.jpg";
+import Product2 from "../../assets/products/2.jpg";
+import Product3 from "../../assets/products/3.jpg";
+import Product4 from "../../assets/products/4.jpg";
+import Product5 from "../../assets/products/5.jpg";
+import Product6 from "../../assets/products/6.jpg";
+import Product7 from "../../assets/products/7.jpg";
 
 const Product = () => {
     return (
@@ -43,6 +46,33 @@ const Product = () => {
                             <img
                                 className="w-full h-full object-cover"
                                 src={Product4}
+                                alt="product"
+                            />
+                        </div>
+                    </div>
+                    <div>
+                        <div className="bg-white aspect-square overflow-hidden rounded-3xl">
+                            <img
+                                className="w-full h-full object-cover"
+                                src={Product5}
+                                alt="product"
+                            />
+                        </div>
+                    </div>
+                    <div>
+                        <div className="bg-white aspect-square overflow-hidden rounded-3xl">
+                            <img
+                                className="w-full h-full object-cover"
+                                src={Product6}
+                                alt="product"
+                            />
+                        </div>
+                    </div>
+                    <div>
+                        <div className="bg-white aspect-square overflow-hidden rounded-3xl">
+                            <img
+                                className="w-full h-full object-cover"
+                                src={Product7}
                                 alt="product"
                             />
                         </div>
