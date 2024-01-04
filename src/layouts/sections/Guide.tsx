@@ -393,8 +393,7 @@ const Guide = () => (
                                 <>
                                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-white text-black px-4 py-2 text-left text-sm font-medium hover:bg-blue-100 focus:outline-none focus-visible:ring focus-visible:ring-blue-500/75">
                                         <span className="block text-base first-letter:uppercase font-semibold">
-                                            hướng dẫn kích hoạt 4 chỉ số chuyên
-                                            sâu
+                                            hướng dẫn kích hoạt 4 chỉ số chuyên sâu ( WELLNESS+ )
                                         </span>
                                         <IoIosArrowDown
                                             className={`${
@@ -407,7 +406,7 @@ const Guide = () => (
                                     <Disclosure.Panel className="text-sm text-gray-500">
                                         <iframe
                                             className="w-full aspect-video"
-                                            src="https://www.youtube.com/embed/1zaDC46RxbQ?si=IFyWuWINT00_tBoq"
+                                            src="https://www.youtube.com/embed/ddXBVaCc5BE?si=dCNbODeNL-r0A-mg"
                                             title="YouTube video player"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         ></iframe>
