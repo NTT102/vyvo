@@ -597,7 +597,7 @@ const Guide = () => (
                                     <Disclosure.Panel className="text-sm text-gray-500">
                                         <iframe
                                             className="w-full aspect-video"
-                                            src="https://www.youtube.com/embed/al7duH-REDo?si=ZI-vg77Xn-3IYquH"
+                                            src="https://www.youtube.com/embed/SldGefEWUBk?si=mVDIVTwWBNfzwdYf"
                                             title="YouTube video player"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         ></iframe>
