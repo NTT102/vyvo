@@ -628,7 +628,7 @@ const Guide = () => (
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         ></iframe>
                                          <span className="block text-base first-letter:uppercase font-semibold">
-                                            <a href="https://drive.google.com/file/d/1f_5KllISphh6lWukHqJO4_ACYvaOIWul/view?usp=sharing">download slide</a>
+                                            <a href="https://drive.google.com/file/d/1f_5KllISphh6lWukHqJO4_ACYvaOIWul/view?usp=sharing">ấn vào đây để tải slide</a>
                                         </span>
                                     </Disclosure.Panel>
                                 </>
