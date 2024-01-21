@@ -1,9 +1,8 @@
-import { Guide, Footer, Hero, Product } from "./layouts";
+import { Guide, Footer, Product } from "./layouts";
 
 function App() {
     return (
         <main>
-            <Hero />
             <Guide />
             <Product />
             <Footer />
